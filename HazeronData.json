@@ -1,0 +1,1343 @@
+{
+	"Commodities": [
+		{
+			"Name": "Logs",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Lumber",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Stone",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Basic Tools",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Plant Fiber",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Textiles",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Ore",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Metal",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Specialized Tools",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Mechanical Parts",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Nitrate Explosive",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Coal",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Electricity",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Gun Powder",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Dynamite",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Oil",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Petrochemicals",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Plastic",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Assembly Tools",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Vehicle",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Minerals",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Crystals",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Electronic Parts",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Electronic Tools",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Computer Parts",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Ice",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Water",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Produce",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Livestock",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Fertilizer",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Liquor",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Air",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Hydrogen",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Eludium",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Grav Coupling",
+			"Size": null,
+			"Price": null
+		},
+		{
+			"Name": "Lumenite",
+			"Size": null,
+			"Price": null
+		}
+	],
+	"Buildings": [
+		{
+			"Name": "Town Square",
+			"Category": "Government",
+			"Homes": 0,
+			"Jobs": 0,
+			"Workshops": 0,
+			"Consumed": [
+				{"Textiles", 1}
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"RequiredTechnology": [],
+			"BonusSpeed": [],
+			"Recipes": []
+		},
+		{
+			"Name": "Capitol",
+			"Category": "Government",
+			"Homes": 0,
+			"Jobs": 5,
+			"Workshops": 0,
+			"Consumed": [
+				{"Construction Material", 40},
+				{"Metal", 10}
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"BonusSpeed": [
+				"Computer Parts",
+				"Electricity",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Cities"],
+			"Recipes": []
+		},
+		{
+			"Name": "Bank",
+			"Category": "Government",
+			"Homes": 0,
+			"Jobs": 5,
+			"Workshops": 0,
+			"Consumed": [
+				{"Construction Material", 120},
+				{"Metal", 12}
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Computer Parts",
+				"Electricity",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Cities"],
+			"Recipes": []
+		},
+		{
+			"Name": "Hospital",
+			"Category": "Government",
+			"Homes": 0,
+			"Jobs": 5,
+			"Workshops": 0,
+			"Consumed": [
+				{"Construction Material", 160},
+				{"Textiles", 40}
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Computer Parts",
+				"Electricity",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Cities"],
+			"Recipes": []
+		},
+		{
+			"Name": "Police Station",
+			"Category": "Government",
+			"Homes": 0,
+			"Jobs": 5,
+			"Workshops": 0,
+			"Consumed": [
+				{"Construction Material", 80}
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Computer Parts",
+				"Electricity",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Cities"],
+			"Recipes": []
+		},
+		{
+			"Name": "Observatory",
+			"Category": "Government",
+			"Homes": 0,
+			"Jobs": 2,
+			"Workshops": 0,
+			"Consumed": [
+				{"Construction Material", 200},
+				{"Metal", 30},
+				{"Crystals", 10}
+			],
+			"Required": [
+				"Basic Tools",
+				"Specialized Tools"
+			],
+			"BonusSpeed": [
+				"Computer Parts",
+				"Electricity",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Cities"],
+			"Recipes": []
+		},
+		{
+			"Name": "University",
+			"Category": "Government",
+			"Homes": 0,
+			"Jobs": 1,
+			"Workshops": 8,
+			"Consumed": [
+				{"Construction Material", 240}
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Computer Parts",
+				"Electricity",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Cities"],
+			"Recipes": []
+		},
+		{
+			"Name": "House",
+			"Homes": 8,
+			"Jobs": 1,
+			"Workshops": 0,
+			"Consumed": [
+				{"Stone", 40}
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Computer Parts",
+				"Electricity",
+				"Vehicle"
+			],
+			"RequiredTechnology": [],
+			"Recipes": []
+		},
+		{
+			"Name": "House",
+			"Homes": 8,
+			"Jobs": 1,
+			"Workshops": 0,
+			"Consumed": [
+				{"Stone", 40}
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Computer Parts",
+				"Electricity",
+				"Vehicle"
+			],
+			"RequiredTechnology": [],
+			"Recipes": []
+		},
+		{
+			"Name": "Stone Quarry",
+			"Homes": 0,
+			"Jobs": 1,
+			"Workshops": 1,
+			"Consumed": [
+				{"Construction Material", 4}
+			],
+			"Required": [],
+			"BonusSpeed": [],
+			"RequiredTechnology": [],
+			"Recipes": [
+				"Stone"
+			]
+		},
+		{
+			"Name": "Mine",
+			"Homes": 0,
+			"Jobs": 1,
+			"Workshops": 4,
+			"Consumed": [
+				{"Construction Material", 40}
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"BonusSpeed": [
+				"Computer Parts",
+				"Electricity",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Mining"],
+			"Recipes": [
+				"Stone",
+				"Ore",
+				"Minerals",
+				"Coal",
+				"Crystals"
+			]
+		}
+	],
+	"Recipes": [
+		{
+			"Name": "Chop Logs",
+			"Factory": "LoggingCamp",
+			"Commodity": "Logs",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Saw Lumber",
+			"Factory": "SawMill",
+			"Commodity": "Lumber",
+			"AmountProduced": 2,
+			"Consumed": [
+				"Logs"
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Mine Stone",
+			"Factory": "Stone Quarry",
+			"Commodity": "Stone",
+			"AmountProduced": 2,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools"
+			],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Dynamite",
+				"Vehicle"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Stone",
+			"Factory": "Mine",
+			"Commodity": "Stone",
+			"AmountProduced": 2,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools"
+			],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Dynamite",
+				"Vehicle"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Basic Tools using Logs",
+			"Factory": "Carpenter",
+			"Commodity": "Basic Tools",
+			"AmountProduced": 3,
+			"Consumed": [
+				"Logs"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Basic Tools using Lumber",
+			"Factory": "Carpenter",
+			"Commodity": "Basic Tools",
+			"AmountProduced": 2,
+			"Consumed": [
+				"Lumber"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Basic Tools using Stone",
+			"Factory": "Carpenter",
+			"Commodity": "Basic Tools",
+			"AmountProduced": 2,
+			"Consumed": [
+				"Stone"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Basic Tools using Metal",
+			"Factory": "MachineShop",
+			"Commodity": "Basic Tools",
+			"AmountProduced": 3,
+			"Consumed": [
+				"Metal"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Mining"]
+		},
+		{
+			"Name": "Basic Tools using Plastic",
+			"Factory": "PlasticsFactory",
+			"Commodity": "Basic Tools",
+			"AmountProduced": 3,
+			"Consumed": [
+				"Plastic"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"PlasticTools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Oil"]
+		},
+		{
+			"Name": "Farm Plant Fiber",
+			"Factory": "Farm",
+			"Commodity": "Plant Fiber",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [
+				"Water"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Fertilizer",
+				"Vehicle"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Textiles using Plant Fiber",
+			"Factory": "TextileMill",
+			"Commodity": "Textiles",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Plant Fiber",
+				"Plant Fiber"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Textiles using Plastic",
+			"Factory": "TextileMill",
+			"Commodity": "Textiles",
+			"AmountProduced": 3,
+			"Consumed": [
+				"Plastic",
+				"Plastic"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Oil"]
+		},
+		{
+			"Name": "Ore",
+			"Factory": "Mine",
+			"Commodity": "Ore",
+			"AmountProduced": 2,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools"
+			],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Dynamite",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Mining"]
+		},
+		{
+			"Name": "Metal",
+			"Factory": "Smelter",
+			"Commodity": "Metal",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Ore"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Mining"]
+		},
+		{
+			"Name": "Specialized Tools",
+			"Factory": "MachineShop",
+			"Commodity": "Specialized Tools",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Metal"
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Dynamite",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Mining"]
+		},
+		{
+			"Name": "Mechanical Parts using Metal",
+			"Factory": "MachineShop",
+			"Commodity": "Mechanical Parts",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Metal"
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Mining"]
+		},
+		{
+			"Name": "Mechanical Parts using Plastic",
+			"Factory": "PlasticsFactory",
+			"Commodity": "Mechanical Parts",
+			"AmountProduced": 3,
+			"Consumed": [
+				"Plastic"
+			],
+			"Required": [
+				"Assembly Tools"
+			],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Oil"]
+		},
+		{
+			"Name": "Nitrate Explosive",
+			"Factory": "Explosives Factory",
+			"Commodity": "Nitrate Explosive",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Fertilizer",
+				"Fertilizer",
+				"Fertilizer",
+				"Fertilizer"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Explosives"]
+		},
+		{
+			"Name": "Coal",
+			"Factory": "Mine",
+			"Commodity": "Coal",
+			"AmountProduced": 2,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools"
+			],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Dynamite",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Mining"]
+		},
+		{
+			"Name": "Electricity",
+			"Factory": "Coal Power Plant",
+			"Commodity": "Electricity",
+			"AmountProduced": 40,
+			"Consumed": [
+				"Coal"
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Electricity"]
+		},
+		{
+			"Name": "Gun Powder",
+			"Factory": "Explosives Factory",
+			"Commodity": "Gun Powder",
+			"AmountProduced": 2,
+			"Consumed": [
+				"Coal",
+				"Minerals",
+				"Nitrate Explosive"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Explosives"]
+		},
+		{
+			"Name": "Dynamite",
+			"Factory": "Munitions Factory",
+			"Commodity": "Dynamite",
+			"AmountProduced": 4,
+			"Consumed": [
+				"Gun Powder"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Explosives"]
+		},
+		{
+			"Name": "Oil",
+			"Factory": "Well",
+			"Commodity": "Oil",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Oil"]
+		},
+		{
+			"Name": "Petrochemicals",
+			"Factory": "Refinery",
+			"Commodity": "Petrochemicals",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Oil"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Oil"]
+		},
+		{
+			"Name": "Plastic",
+			"Factory": "PlasticsFactory",
+			"Commodity": "Plastic",
+			"AmountProduced": 5,
+			"Consumed": [
+				"Petrochemicals"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Oil"]
+		},
+		{
+			"Name": "Assembly Tools",
+			"Factory": "Electronics Factory",
+			"Commodity": "Assembly Tools",
+			"AmountProduced": 2,
+			"Consumed": [
+				"Metal",
+				"Plastic"
+			],
+			"Required": [
+				"Electricity"
+			],
+			"BonusSpeed": [
+				"Assembly Tools"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Oil"]
+		},
+		{
+			"Name": "Vehicle",
+			"Factory": "VehicleFactory",
+			"Commodity": "Vehicle",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Mechanical Parts",
+				"Metal",
+				"Plastic",
+				"Textiles"
+			],
+			"Required": [
+				"Basic Tools",
+				"Specialized Tools",
+				"Assembly Tools",
+				"Electricity"
+			],
+			"BonusSpeed": [
+				"Computer Parts"
+			],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Vehicles"]
+		},
+		{
+			"Name": "Minerals",
+			"Factory": "Mine",
+			"Commodity": "Minerals",
+			"AmountProduced": 2,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools"
+			],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Dynamite",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Electronics"]
+		},
+		{
+			"Name": "Crystals",
+			"Factory": "Mine",
+			"Commodity": "Crystals",
+			"AmountProduced": 2,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools"
+			],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Dynamite",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Electronics"]
+		},
+		{
+			"Name": "Electronic Parts",
+			"Factory": "Electronics Factory",
+			"Commodity": "Electronic Parts",
+			"AmountProduced": 2,
+			"Consumed": [
+				"Crystals",
+				"Metal",
+				"Minerals",
+				"Plastic"
+			],
+			"Required": [
+				"Electricity",
+				"Assembly Tools"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Electronics"]
+		},
+		{
+			"Name": "Electronic Tools",
+			"Factory": "Electronics Factory",
+			"Commodity": "Electronic Tools",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Electronics"]
+		},
+		{
+			"Name": "Computer Parts",
+			"Factory": "ComputerFactory",
+			"Commodity": "Computer Parts",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Electronic Parts",
+				"Electronic Parts",
+				"Electronic Parts",
+				"Electronic Parts",
+				"Electronic Parts",
+				"Metal",
+				"Metal",
+				"Plastic",
+				"Plastic",
+				"Plastic",
+				"Plastic"
+			],
+			"Required": [
+				"Electricity",
+				"Assembly Tools",
+				"Specialized Tools"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Electronics"]
+		},
+		{
+			"Name": "Ice",
+			"Factory": "Mine",
+			"Commodity": "Ice",
+			"AmountProduced": 2,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Basic Tools"
+			],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Dynamite",
+				"Vehicle"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Water",
+			"Factory": "Well",
+			"Commodity": "Water",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Water",
+			"Factory": "Treatment Plant",
+			"Commodity": "Water",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Water",
+			"Factory": "Treatment Plant",
+			"Commodity": "Water",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Ice"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Water",
+			"Factory": "Refinery",
+			"Commodity": "Water",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Air",
+				"Hydrogen"
+			],
+			"Required": [
+				"Electricity"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Produce",
+			"Factory": "Farm",
+			"Commodity": "Produce",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [
+				"Water"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity",
+				"Fertilizer",
+				"Vehicle"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Livestock",
+			"Factory": "Farm",
+			"Commodity": "Livestock",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [
+				"Water"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts",
+				"Electricity"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Fertilizer",
+			"Factory": "Farm",
+			"Commodity": "Fertilizer",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Produce"
+			],
+			"Required": [
+				"Water"
+			],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Fertilizer",
+			"Factory": "Refinery",
+			"Commodity": "Fertilizer",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Air",
+				"Hydrogen"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Liquor",
+			"Factory": "Winery",
+			"Commodity": "Liquor",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Produce",
+				"Water"
+			],
+			"Required": [],
+			"BonusSpeed": [
+				"Electricity"
+			],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Leisure"]
+		},
+		{
+			"Name": "Air",
+			"Factory": "Refinery",
+			"Commodity": "Air",
+			"AmountProduced": 2,
+			"Consumed": [],
+			"Required": [
+				"Electricity"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Air",
+			"Factory": "Refinery",
+			"Commodity": "Air",
+			"AmountProduced": 2,
+			"Consumed": [
+				"Water",
+				"Water"
+			],
+			"Required": [
+				"Electricity"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Hydrogen",
+			"Factory": "Refinery",
+			"Commodity": "Hydrogen",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [
+				"Electricity"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Hydrogen",
+			"Factory": "Refinery",
+			"Commodity": "Hydrogen",
+			"AmountProduced": 1,
+			"Consumed": [
+				"Water",
+				"Water"
+			],
+			"Required": [
+				"Electricity"
+			],
+			"BonusSpeed": [],
+			"BonusOutput": [
+				"Computer Parts"
+			],
+			"RequiredTechnology": ["Purification"]
+		},
+		{
+			"Name": "Eludium",
+			"Factory": "Mine",
+			"Commodity": "Eludium",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Moon Mining"]
+		},
+		{
+			"Name": "Grav Coupling",
+			"Factory": "Electronics Factory",
+			"Commodity": "Grav Coupling",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Moon Mining"]
+		},
+		{
+			"Name": "Lumenite",
+			"Factory": "Mine",
+			"Commodity": "Lumenite",
+			"AmountProduced": 1,
+			"Consumed": [],
+			"Required": [],
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Moon Mining"]
+		}
+	],
+	"Technology": [
+		{
+			"Name": "Cities",
+			"Consumed": [
+				{"Stone", 10}
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"Time": 120,
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": []
+		},
+		{
+			"Name": "Mining",
+			"Consumed": [
+				{"Stone", 10},
+				{"Ore", 10}
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"Time": 240,
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Cities"]
+		},
+		{
+			"Name": "Explosives",
+			"Consumed": [
+				{"Coal", 10},
+				{"Fertilizer", 10}
+			],
+			"Required": [],
+			"Time": 240,
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Mining"]
+		},
+		{
+			"Name": "Electricity",
+			"Consumed": [
+				{"Coal", 10}
+			],
+			"Required": [],
+			"Time": 360,
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Mining"]
+		},
+		{
+			"Name": "Oil",
+			"Consumed": [
+				{"Oil", 10}
+			],
+			"Required": [
+				"Specialized Tools"
+			],
+			"Time": 240,
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Electricity"]
+		},
+		{
+			"Name": "Electronics",
+			"Consumed": [
+				{"Oil", 10}
+			],
+			"Required": [
+				"Specialized Tools"
+			],
+			"Time": 240,
+			"BonusSpeed": [],
+			"BonusOutput": [],
+			"RequiredTechnology": ["Oil", "Electricity"]
+		}
+	]
+}
