@@ -1,186 +1,224 @@
 {
+	"Version": "A",
 	"Commodities": [
 		{
+			"Id": 1,
 			"Name": "Logs",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 2,
 			"Name": "Lumber",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 3,
 			"Name": "Stone",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 4,
 			"Name": "Basic Tools",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 5,
 			"Name": "Plant Fiber",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 6,
 			"Name": "Textiles",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 7,
 			"Name": "Ore",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 8,
 			"Name": "Metal",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 9,
 			"Name": "Specialized Tools",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 10,
 			"Name": "Mechanical Parts",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 11,
 			"Name": "Nitrate Explosive",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 12,
 			"Name": "Coal",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 13,
 			"Name": "Electricity",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 14,
 			"Name": "Gun Powder",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 15,
 			"Name": "Dynamite",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 16,
 			"Name": "Oil",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 17,
 			"Name": "Petrochemicals",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 18,
 			"Name": "Plastic",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 19,
 			"Name": "Assembly Tools",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 20,
 			"Name": "Vehicle",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 21,
 			"Name": "Minerals",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 22,
 			"Name": "Crystals",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 23,
 			"Name": "Electronic Parts",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 24,
 			"Name": "Electronic Tools",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 25,
 			"Name": "Computer Parts",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 26,
 			"Name": "Ice",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 27,
 			"Name": "Water",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 28,
 			"Name": "Grain",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 29,
 			"Name": "Produce",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 30,
 			"Name": "Livestock",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 31,
 			"Name": "Fertilizer",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 32,
 			"Name": "Liquor",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 33,
 			"Name": "Air",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 34,
 			"Name": "Hydrogen",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 35,
 			"Name": "Eludium",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 36,
 			"Name": "Grav Coupling",
 			"Size": null,
 			"Price": null
 		},
 		{
+			"Id": 37,
 			"Name": "Lumenite",
 			"Size": null,
 			"Price": null
@@ -188,12 +226,13 @@
 	],
 	"Buildings": [
 		{
+			"Id": 1,
 			"Name": "Town Square",
 			"Homes": 0,
 			"Jobs": 0,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Textiles",
@@ -204,15 +243,16 @@
 				"Basic Tools"
 			],
 			"RequiredTechnology": [],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 2,
 			"Name": "Capitol",
 			"Homes": 0,
 			"Jobs": 5,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -229,15 +269,16 @@
 			"RequiredTechnology": [
 				"Cities"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 3,
 			"Name": "Bank",
 			"Homes": 0,
 			"Jobs": 5,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -252,15 +293,18 @@
 			"RequiredTechnology": [
 				"Cities"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": [
+				"Basic Tools"
+			]
 		},
 		{
+			"Id": 4,
 			"Name": "Hospital",
 			"Homes": 0,
 			"Jobs": 5,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -275,15 +319,18 @@
 			"RequiredTechnology": [
 				"Cities"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": [
+				"Basic Tools"
+			]
 		},
 		{
+			"Id": 5,
 			"Name": "Police Station",
 			"Homes": 0,
 			"Jobs": 5,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -294,15 +341,18 @@
 			"RequiredTechnology": [
 				"Cities"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": [
+				"Basic Tools"
+			]
 		},
 		{
+			"Id": 6,
 			"Name": "Observatory",
 			"Homes": 0,
 			"Jobs": 2,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -324,15 +374,16 @@
 			"RequiredTechnology": [
 				"Cities"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 7,
 			"Name": "University",
 			"Homes": 0,
 			"Jobs": 1,
 			"Workshops": 8,
 			"Recipes": [],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -343,15 +394,18 @@
 			"RequiredTechnology": [
 				"Cities"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": [
+				"Basic Tools"
+			]
 		},
 		{
+			"Id": 8,
 			"Name": "House",
 			"Homes": 8,
 			"Jobs": 1,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -360,15 +414,16 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 9,
 			"Name": "Apartment",
 			"Homes": 32,
 			"Jobs": 1,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -385,9 +440,10 @@
 			"RequiredTechnology": [
 				"Cities"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 10,
 			"Name": "Farm",
 			"Homes": 4,
 			"Jobs": 1,
@@ -399,7 +455,7 @@
 				"Raise Livestock",
 				"Make Fertilizer"
 			],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -408,9 +464,12 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": null
+			"SpeedBonus": [
+				"Basic Tools"
+			]
 		},
 		{
+			"Id": 11,
 			"Name": "Stone Quarry",
 			"Homes": 0,
 			"Jobs": 1,
@@ -418,7 +477,7 @@
 			"Recipes": [
 				"Mine Stone"
 			],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -427,9 +486,12 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": null
+			"SpeedBonus": [
+				"Basic Tools"
+			]
 		},
 		{
+			"Id": 12,
 			"Name": "Mine",
 			"Homes": 0,
 			"Jobs": 1,
@@ -443,7 +505,7 @@
 				"Mine Eludium",
 				"Mine Lumenite"
 			],
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -456,28 +518,84 @@
 			"RequiredTechnology": [
 				"Mining"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": []
+		},
+		{
+			"Id": 13,
+			"Name": "Smelter",
+			"Homes": 0,
+			"Jobs": 1,
+			"Workshops": 8,
+			"Recipes": [
+				"Metal"
+			],
+			"Time": 10,
+			"Consumed": [
+				{
+					"Commodity": "Construction Material",
+					"Amount": 200
+				}
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"RequiredTechnology": [
+				"Metalworking"
+			],
+			"SpeedBonus": []
+		},
+		{
+			"Id": 14,
+			"Name": "Machine Shop",
+			"Homes": 0,
+			"Jobs": 1,
+			"Workshops": 8,
+			"Recipes": [
+				"Basic Tools using Metal",
+				"Specialized Tools",
+				"Mechanical Parts using Metal"
+			],
+			"Time": 10,
+			"Consumed": [
+				{
+					"Commodity": "Construction Material",
+					"Amount": 200
+				},
+				{
+					"Commodity": "Basic Tools",
+					"Amount": 8
+				}
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"RequiredTechnology": [
+				"Metalworking"
+			],
+			"SpeedBonus": []
 		}
 	],
 	"Recipes": [
 		{
+			"Id": 1,
 			"Name": "Chop Logs",
 			"Factory": "Logging Camp",
 			"Commodity": "Logs",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 2,
 			"Name": "Saw Lumber",
 			"Factory": "Saw Mill",
 			"Commodity": "Lumber",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Logs",
@@ -488,27 +606,29 @@
 				"Basic Tools"
 			],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 3,
 			"Name": "Mine Stone",
 			"Factory": "Mine",
 			"Commodity": "Stone",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 4,
 			"Name": "Basic Tools using Logs",
 			"Factory": "Carpenter",
 			"Commodity": "Basic Tools",
 			"AmountProduced": 3,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Logs",
@@ -517,15 +637,16 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 5,
 			"Name": "Basic Tools using Lumber",
 			"Factory": "Carpenter",
 			"Commodity": "Basic Tools",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Lumber",
@@ -534,15 +655,16 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 6,
 			"Name": "Basic Tools using Stone",
 			"Factory": "Carpenter",
 			"Commodity": "Basic Tools",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Stone",
@@ -551,67 +673,75 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 7,
 			"Name": "Basic Tools using Metal",
 			"Factory": "Machine Shop",
 			"Commodity": "Basic Tools",
 			"AmountProduced": 3,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Metal",
 					"Amount": 1
 				}
 			],
-			"Required": [],
-			"RequiredTechnology": [
-				"Mining"
+			"Required": [
+				"Basic Tools"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"RequiredTechnology": [
+				"Metalworking"
+			],
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 8,
 			"Name": "Basic Tools using Plastic",
 			"Factory": "Plastics Factory",
 			"Commodity": "Basic Tools",
 			"AmountProduced": 3,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Plastic",
 					"Amount": 1
 				}
 			],
-			"Required": [],
+			"Required": [
+				"Basic Tools"
+			],
 			"RequiredTechnology": [
 				"Oil"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 9,
 			"Name": "Farm Plant Fiber",
 			"Factory": "Farm",
 			"Commodity": "Plant Fiber",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [
 				"Water"
 			],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 10,
 			"Name": "Textiles using Plant Fiber",
 			"Factory": "Textile Mill",
 			"Commodity": "Textiles",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Plant Fiber",
@@ -620,15 +750,16 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 11,
 			"Name": "Textiles using Plastic",
 			"Factory": "Textile Mill",
 			"Commodity": "Textiles",
 			"AmountProduced": 3,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Plastic",
@@ -639,29 +770,31 @@
 			"RequiredTechnology": [
 				"Oil"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 12,
 			"Name": "Mine Ore",
 			"Factory": "Mine",
 			"Commodity": "Ore",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Mining"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 13,
 			"Name": "Metal",
 			"Factory": "Smelter",
 			"Commodity": "Metal",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Ore",
@@ -670,17 +803,18 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [
-				"Mining"
+				"Metalworking"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 14,
 			"Name": "Specialized Tools",
 			"Factory": "Machine Shop",
 			"Commodity": "Specialized Tools",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Metal",
@@ -691,17 +825,18 @@
 				"Basic Tools"
 			],
 			"RequiredTechnology": [
-				"Mining"
+				"Metalworking"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 15,
 			"Name": "Mechanical Parts using Metal",
 			"Factory": "Machine Shop",
 			"Commodity": "Mechanical Parts",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Metal",
@@ -712,17 +847,18 @@
 				"Basic Tools"
 			],
 			"RequiredTechnology": [
-				"Mining"
+				"Metalworking"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 16,
 			"Name": "Mechanical Parts using Plastic",
 			"Factory": "Plastics Factory",
 			"Commodity": "Mechanical Parts",
 			"AmountProduced": 3,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Plastic",
@@ -735,15 +871,16 @@
 			"RequiredTechnology": [
 				"Oil"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 17,
 			"Name": "Nitrate Explosive",
 			"Factory": "Explosives Factory",
 			"Commodity": "Nitrate Explosive",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Fertilizer",
@@ -754,29 +891,31 @@
 			"RequiredTechnology": [
 				"Explosives"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 18,
 			"Name": "Mine Coal",
 			"Factory": "Mine",
 			"Commodity": "Coal",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Mining"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 19,
 			"Name": "Electricity",
 			"Factory": "Coal Power Plant",
 			"Commodity": "Electricity",
 			"AmountProduced": 40,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Coal",
@@ -789,15 +928,16 @@
 			"RequiredTechnology": [
 				"Electricity"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 20,
 			"Name": "Gun Powder",
 			"Factory": "Explosives Factory",
 			"Commodity": "Gun Powder",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Coal",
@@ -816,15 +956,16 @@
 			"RequiredTechnology": [
 				"Explosives"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 21,
 			"Name": "Dynamite",
 			"Factory": "Munitions Factory",
 			"Commodity": "Dynamite",
 			"AmountProduced": 4,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Gun Powder",
@@ -835,29 +976,31 @@
 			"RequiredTechnology": [
 				"Explosives"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 22,
 			"Name": "Oil",
 			"Factory": "Well",
 			"Commodity": "Oil",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Oil"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 23,
 			"Name": "Petrochemicals",
 			"Factory": "Refinery",
 			"Commodity": "Petrochemicals",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Oil",
@@ -868,15 +1011,16 @@
 			"RequiredTechnology": [
 				"Oil"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 24,
 			"Name": "Plastic",
 			"Factory": "Plastics Factory",
 			"Commodity": "Plastic",
 			"AmountProduced": 5,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Petrochemicals",
@@ -887,15 +1031,16 @@
 			"RequiredTechnology": [
 				"Oil"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 25,
 			"Name": "Assembly Tools",
 			"Factory": "Electronics Factory",
 			"Commodity": "Assembly Tools",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Metal",
@@ -912,15 +1057,16 @@
 			"RequiredTechnology": [
 				"Oil"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 26,
 			"Name": "Vehicle",
 			"Factory": "Vehicle Factory",
 			"Commodity": "Vehicle",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Mechanical Parts",
@@ -948,43 +1094,46 @@
 			"RequiredTechnology": [
 				"Vehicles"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 27,
 			"Name": "Mine Minerals",
 			"Factory": "Mine",
 			"Commodity": "Minerals",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Electronics"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 28,
 			"Name": "Mine Crystals",
 			"Factory": "Mine",
 			"Commodity": "Crystals",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Electronics"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 29,
 			"Name": "Electronic Parts",
 			"Factory": "Electronics Factory",
 			"Commodity": "Electronic Parts",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Crystals",
@@ -1010,29 +1159,31 @@
 			"RequiredTechnology": [
 				"Electronics"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 30,
 			"Name": "Electronic Tools",
 			"Factory": "Electronics Factory",
 			"Commodity": "Electronic Tools",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Electronics"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 31,
 			"Name": "Computer Parts",
 			"Factory": "ComputerFactory",
 			"Commodity": "Computer Parts",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Electronic Parts",
@@ -1055,57 +1206,61 @@
 			"RequiredTechnology": [
 				"Electronics"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 32,
 			"Name": "Mine Ice",
 			"Factory": "Mine",
 			"Commodity": "Ice",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 33,
 			"Name": "Drill Water",
 			"Factory": "Well",
 			"Commodity": "Water",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 34,
 			"Name": "Extract Water",
 			"Factory": "Treatment Plant",
 			"Commodity": "Water",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 35,
 			"Name": "Water using Ice",
 			"Factory": "Treatment Plant",
 			"Commodity": "Water",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Ice",
@@ -1116,15 +1271,16 @@
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 36,
 			"Name": "Water using Gases",
 			"Factory": "Refinery",
 			"Commodity": "Water",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Air",
@@ -1141,43 +1297,61 @@
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 37,
+			"Name": "Farm Grain",
+			"Factory": "Farm",
+			"Commodity": "Grain",
+			"AmountProduced": 1,
+			"Time": 10,
+			"Consumed": [],
+			"Required": [
+				"Water"
+			],
+			"RequiredTechnology": [],
+			"SpeedBonus": [],
+			"OutputBonus": []
+		},
+		{
+			"Id": 37,
 			"Name": "Farm Produce",
 			"Factory": "Farm",
 			"Commodity": "Produce",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [
 				"Water"
 			],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 38,
 			"Name": "Raise Livestock",
 			"Factory": "Farm",
 			"Commodity": "Livestock",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [
 				"Water"
 			],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 39,
 			"Name": "Make Fertilizer",
 			"Factory": "Farm",
 			"Commodity": "Fertilizer",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Produce",
@@ -1188,15 +1362,16 @@
 				"Water"
 			],
 			"RequiredTechnology": [],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 40,
 			"Name": "Fertilizer",
 			"Factory": "Refinery",
 			"Commodity": "Fertilizer",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Air",
@@ -1211,15 +1386,16 @@
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 41,
 			"Name": "Liquor using Produce",
 			"Factory": "Winery",
 			"Commodity": "Liquor",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Produce",
@@ -1234,15 +1410,16 @@
 			"RequiredTechnology": [
 				"Leisure"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 42,
 			"Name": "Liquor using Grain",
 			"Factory": "Winery",
 			"Commodity": "Liquor",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Grain",
@@ -1257,15 +1434,16 @@
 			"RequiredTechnology": [
 				"Leisure"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
-			"Name": "Air",
+			"Id": 43,
+			"Name": "Air using Atmosphere",
 			"Factory": "Refinery",
 			"Commodity": "Air",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [
 				"Electricity"
@@ -1273,15 +1451,16 @@
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 44,
 			"Name": "Air using Water",
 			"Factory": "Refinery",
 			"Commodity": "Air",
 			"AmountProduced": 2,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Water",
@@ -1294,15 +1473,16 @@
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
-			"Name": "Hydrogen",
+			"Id": 45,
+			"Name": "Hydrogen using Atmosphere",
 			"Factory": "Refinery",
 			"Commodity": "Hydrogen",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [
 				"Electricity"
@@ -1310,15 +1490,16 @@
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
-			"Name": "Hydrogen",
+			"Id": 46,
+			"Name": "Hydrogen using Water",
 			"Factory": "Refinery",
 			"Commodity": "Hydrogen",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [
 				{
 					"Commodity": "Water",
@@ -1331,54 +1512,58 @@
 			"RequiredTechnology": [
 				"Purification"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 47,
 			"Name": "Mine Eludium",
 			"Factory": "Mine",
 			"Commodity": "Eludium",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Moon Mining"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 48,
 			"Name": "Grav Coupling",
 			"Factory": "Electronics Factory",
 			"Commodity": "Grav Coupling",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Moon Mining"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		},
 		{
+			"Id": 49,
 			"Name": "Mine Lumenite",
 			"Factory": "Mine",
 			"Commodity": "Lumenite",
 			"AmountProduced": 1,
-			"Time": null,
+			"Time": 10,
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [
 				"Moon Mining"
 			],
-			"SpeedBonus": null,
-			"OutputBonus": null
+			"SpeedBonus": [],
+			"OutputBonus": []
 		}
 	],
 	"Technologies": [
 		{
+			"Id": 1,
 			"Name": "Cities",
 			"Time": 120,
 			"Consumed": [
@@ -1391,9 +1576,10 @@
 				"Basic Tools"
 			],
 			"RequiredTechnology": [],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 2,
 			"Name": "Mining",
 			"Time": 240,
 			"Consumed": [
@@ -1401,6 +1587,24 @@
 					"Commodity": "Stone",
 					"Amount": 10
 				},
+				{
+					"Commodity": "Ore",
+					"Amount": 1
+				}
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"RequiredTechnology": [
+				"Cities"
+			],
+			"SpeedBonus": []
+		},
+		{
+			"Id": 3,
+			"Name": "Metalworking",
+			"Time": 240,
+			"Consumed": [
 				{
 					"Commodity": "Ore",
 					"Amount": 10
@@ -1412,9 +1616,10 @@
 			"RequiredTechnology": [
 				"Cities"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 4,
 			"Name": "Explosives",
 			"Time": 240,
 			"Consumed": [
@@ -1431,9 +1636,10 @@
 			"RequiredTechnology": [
 				"Mining"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 5,
 			"Name": "Electricity",
 			"Time": 360,
 			"Consumed": [
@@ -1442,17 +1648,18 @@
 					"Amount": 10
 				},
 				{
-					"Commodity": "MechanicalParts",
+					"Commodity": "Mechanical Parts",
 					"Amount": 100
 				}
 			],
 			"Required": [],
 			"RequiredTechnology": [
-				"Mining"
+				"Metalworking"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 6,
 			"Name": "Oil",
 			"Time": 240,
 			"Consumed": [
@@ -1467,9 +1674,29 @@
 			"RequiredTechnology": [
 				"Electricity"
 			],
-			"SpeedBonus": null
+			"SpeedBonus": []
 		},
 		{
+			"Id": 7,
+			"Name": "Purification",
+			"Time": 240,
+			"Consumed": [
+				{
+					"Commodity": "Water",
+					"Amount": 100
+				}
+			],
+			"Required": [
+				"Specialized Tools",
+				"Electricity"
+			],
+			"RequiredTechnology": [
+				"Electricity"
+			],
+			"SpeedBonus": []
+		},
+		{
+			"Id": 8,
 			"Name": "Electronics",
 			"Time": 240,
 			"Consumed": [
@@ -1479,13 +1706,60 @@
 				}
 			],
 			"Required": [
-				"Specialized Tools"
+				"Specialized Tools",
+				"Electricity"
 			],
 			"RequiredTechnology": [
 				"Oil",
 				"Electricity"
 			],
-			"SpeedBonus": null
+			",SpeedBonus": []
+		},
+		{
+			"Id": 9,
+			"Name": "Rocket Science",
+			"Time": 240,
+			"Consumed": [
+				{
+					"Commodity": "Metal",
+					"Amount": 100
+				},
+				{
+					"Commodity": "Mechanical Parts",
+					"Amount": 100
+				},
+				{
+					"Commodity": "Hidrogen",
+					"Amount": 10
+				}
+			],
+			"Required": [
+				"Specialized Tools"
+			],
+			"RequiredTechnology": [
+				"Metalworking",
+				"Purification",
+				"Electronics"
+			],
+			",SpeedBonus": []
+		},
+		{
+			"Id": 10,
+			"Name": "Moon Mining",
+			"Time": 240,
+			"Consumed": [
+				{
+					"Commodity": "Eludium",
+					"Amount": 10
+				}
+			],
+			"Required": [
+				"Basic Tools"
+			],
+			"RequiredTechnology": [
+				"Cities"
+			],
+			"SpeedBonus": []
 		}
 	]
 }
