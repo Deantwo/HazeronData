@@ -1713,7 +1713,7 @@
 				"Oil",
 				"Electricity"
 			],
-			",SpeedBonus": []
+			"SpeedBonus": []
 		},
 		{
 			"Id": 9,
@@ -1741,7 +1741,7 @@
 				"Purification",
 				"Electronics"
 			],
-			",SpeedBonus": []
+			"SpeedBonus": []
 		},
 		{
 			"Id": 10,
