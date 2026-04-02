@@ -1,5 +1,5 @@
 {
-	"Version": "A",
+	"Version": 1,
 	"Commodities": [
 		{
 			"Id": 1,
@@ -227,6 +227,21 @@
 	"Buildings": [
 		{
 			"Id": 1,
+			"Name": "Road",
+			"Homes": 0,
+			"Jobs": 0,
+			"Workshops": 0,
+			"Recipes": [],
+			"Time": 10,
+			"Consumed": [],
+			"Required": [],
+			"RequiredTechnology": [],
+			"SpeedBonus": [
+				"Basic Tools"
+			]
+		},
+		{
+			"Id": 2,
 			"Name": "Town Square",
 			"Homes": 0,
 			"Jobs": 0,
@@ -246,13 +261,13 @@
 			"SpeedBonus": []
 		},
 		{
-			"Id": 2,
+			"Id": 3,
 			"Name": "Capitol",
 			"Homes": 0,
 			"Jobs": 5,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": 10,
+			"Time": 300,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -272,13 +287,13 @@
 			"SpeedBonus": []
 		},
 		{
-			"Id": 3,
+			"Id": 4,
 			"Name": "Bank",
 			"Homes": 0,
 			"Jobs": 5,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": 10,
+			"Time": 180,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -298,13 +313,13 @@
 			]
 		},
 		{
-			"Id": 4,
+			"Id": 5,
 			"Name": "Hospital",
 			"Homes": 0,
 			"Jobs": 5,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": 10,
+			"Time": 180,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -324,13 +339,13 @@
 			]
 		},
 		{
-			"Id": 5,
+			"Id": 6,
 			"Name": "Police Station",
 			"Homes": 0,
 			"Jobs": 5,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": 10,
+			"Time": 180,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -346,13 +361,13 @@
 			]
 		},
 		{
-			"Id": 6,
+			"Id": 7,
 			"Name": "Observatory",
 			"Homes": 0,
 			"Jobs": 2,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": 10,
+			"Time": 600,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -377,13 +392,13 @@
 			"SpeedBonus": []
 		},
 		{
-			"Id": 7,
+			"Id": 8,
 			"Name": "University",
 			"Homes": 0,
 			"Jobs": 1,
 			"Workshops": 8,
 			"Recipes": [],
-			"Time": 10,
+			"Time": 120,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -399,13 +414,13 @@
 			]
 		},
 		{
-			"Id": 8,
+			"Id": 9,
 			"Name": "House",
 			"Homes": 8,
 			"Jobs": 1,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": 10,
+			"Time": 60,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -417,13 +432,13 @@
 			"SpeedBonus": []
 		},
 		{
-			"Id": 9,
+			"Id": 10,
 			"Name": "Apartment",
 			"Homes": 32,
 			"Jobs": 1,
 			"Workshops": 0,
 			"Recipes": [],
-			"Time": 10,
+			"Time": 300,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -443,7 +458,7 @@
 			"SpeedBonus": []
 		},
 		{
-			"Id": 10,
+			"Id": 11,
 			"Name": "Farm",
 			"Homes": 4,
 			"Jobs": 1,
@@ -455,7 +470,7 @@
 				"Raise Livestock",
 				"Make Fertilizer"
 			],
-			"Time": 10,
+			"Time": 30,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -465,19 +480,42 @@
 			"Required": [],
 			"RequiredTechnology": [],
 			"SpeedBonus": [
-				"Basic Tools"
+				"Basic Tools",
+				"Electricity",
+				"Vehicle",
+				"Computer Parts"
 			]
 		},
 		{
-			"Id": 11,
+			"Id": 12,
+			"Name": "Logging Camp",
+			"Homes": 0,
+			"Jobs": 1,
+			"Workshops": 2,
+			"Recipes": [
+				"Chop Logs"
+			],
+			"Time": 30,
+			"Consumed": [],
+			"Required": [],
+			"RequiredTechnology": [],
+			"SpeedBonus": [
+				"Basic Tools",
+				"Electricity",
+				"Vehicle",
+				"Computer Parts"
+			]
+		},
+		{
+			"Id": 13,
 			"Name": "Stone Quarry",
 			"Homes": 0,
 			"Jobs": 1,
-			"Workshops": 1,
+			"Workshops": 2,
 			"Recipes": [
 				"Mine Stone"
 			],
-			"Time": 10,
+			"Time": 30,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -487,11 +525,41 @@
 			"Required": [],
 			"RequiredTechnology": [],
 			"SpeedBonus": [
-				"Basic Tools"
+				"Basic Tools",
+				"Electricity",
+				"Vehicle",
+				"Computer Parts"
 			]
 		},
 		{
-			"Id": 12,
+			"Id": 14,
+			"Name": "Carpenter",
+			"Homes": 0,
+			"Jobs": 1,
+			"Workshops": 4,
+			"Recipes": [
+				"Basic Tools using Logs",
+				"Basic Tools using Lumber",
+				"Basic Tools using Stone"
+			],
+			"Time": 60,
+			"Consumed": [
+				{
+					"Commodity": "Construction Material",
+					"Amount": 100
+				}
+			],
+			"Required": [],
+			"RequiredTechnology": [],
+			"SpeedBonus": [
+				"Basic Tools",
+				"Electricity",
+				"Vehicle",
+				"Computer Parts"
+			]
+		},
+		{
+			"Id": 15,
 			"Name": "Mine",
 			"Homes": 0,
 			"Jobs": 1,
@@ -505,7 +573,7 @@
 				"Mine Eludium",
 				"Mine Lumenite"
 			],
-			"Time": 10,
+			"Time": 60,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -518,10 +586,14 @@
 			"RequiredTechnology": [
 				"Mining"
 			],
-			"SpeedBonus": []
+			"SpeedBonus": [
+				"Electricity",
+				"Vehicle",
+				"Computer Parts"
+			]
 		},
 		{
-			"Id": 13,
+			"Id": 16,
 			"Name": "Smelter",
 			"Homes": 0,
 			"Jobs": 1,
@@ -529,7 +601,7 @@
 			"Recipes": [
 				"Metal"
 			],
-			"Time": 10,
+			"Time": 120,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -542,10 +614,14 @@
 			"RequiredTechnology": [
 				"Metalworking"
 			],
-			"SpeedBonus": []
+			"SpeedBonus": [
+				"Electricity",
+				"Vehicle",
+				"Computer Parts"
+			]
 		},
 		{
-			"Id": 14,
+			"Id": 17,
 			"Name": "Machine Shop",
 			"Homes": 0,
 			"Jobs": 1,
@@ -555,7 +631,7 @@
 				"Specialized Tools",
 				"Mechanical Parts using Metal"
 			],
-			"Time": 10,
+			"Time": 120,
 			"Consumed": [
 				{
 					"Commodity": "Construction Material",
@@ -566,13 +642,15 @@
 					"Amount": 8
 				}
 			],
-			"Required": [
-				"Basic Tools"
-			],
+			"Required": [],
 			"RequiredTechnology": [
 				"Metalworking"
 			],
-			"SpeedBonus": []
+			"SpeedBonus": [
+				"Electricity",
+				"Vehicle",
+				"Computer Parts"
+			]
 		}
 	],
 	"Recipes": [
@@ -586,8 +664,13 @@
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": [],
-			"OutputBonus": []
+			"SpeedBonus": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"OutputBonus": [
+				"Computer Parts"
+			]
 		},
 		{
 			"Id": 2,
@@ -605,9 +688,15 @@
 			"Required": [
 				"Basic Tools"
 			],
-			"RequiredTechnology": [],
-			"SpeedBonus": [],
-			"OutputBonus": []
+			"RequiredTechnology": [
+				"Basic Tools"
+			],
+			"SpeedBonus": [
+				"Electricity"
+			],
+			"OutputBonus": [
+				"Computer Parts"
+			]
 		},
 		{
 			"Id": 3,
@@ -619,8 +708,15 @@
 			"Consumed": [],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": [],
-			"OutputBonus": []
+			"SpeedBonus": [
+				"Basic Tools"
+			],
+			"OutputBonus": [
+				"Dynamite",
+				"Electricity",
+				"Vehicle",
+				"Computer Parts"
+			]
 		},
 		{
 			"Id": 4,
@@ -637,8 +733,13 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": [],
-			"OutputBonus": []
+			"SpeedBonus": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"OutputBonus": [
+				"Computer Parts"
+			]
 		},
 		{
 			"Id": 5,
@@ -655,8 +756,13 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": [],
-			"OutputBonus": []
+			"SpeedBonus": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"OutputBonus": [
+				"Computer Parts"
+			]
 		},
 		{
 			"Id": 6,
@@ -673,8 +779,13 @@
 			],
 			"Required": [],
 			"RequiredTechnology": [],
-			"SpeedBonus": [],
-			"OutputBonus": []
+			"SpeedBonus": [
+				"Basic Tools",
+				"Electricity"
+			],
+			"OutputBonus": [
+				"Computer Parts"
+			]
 		},
 		{
 			"Id": 7,
@@ -695,8 +806,12 @@
 			"RequiredTechnology": [
 				"Metalworking"
 			],
-			"SpeedBonus": [],
-			"OutputBonus": []
+			"SpeedBonus": [
+				"Electricity"
+			],
+			"OutputBonus": [
+				"Computer Parts"
+			]
 		},
 		{
 			"Id": 8,
@@ -712,13 +827,17 @@
 				}
 			],
 			"Required": [
-				"Basic Tools"
+				"Assembly Tools"
 			],
 			"RequiredTechnology": [
 				"Oil"
 			],
-			"SpeedBonus": [],
-			"OutputBonus": []
+			"SpeedBonus": [
+				"Electricity"
+			],
+			"OutputBonus": [
+				"Computer Parts"
+			]
 		},
 		{
 			"Id": 9,
@@ -1757,7 +1876,32 @@
 				"Basic Tools"
 			],
 			"RequiredTechnology": [
-				"Cities"
+				"Mining",
+				"Rocket Science"
+			],
+			"SpeedBonus": []
+		},
+		{
+			"Id": 11,
+			"Name": "Anti-Gravity",
+			"Time": 240,
+			"Consumed": [
+				{
+					"Commodity": "Eludium",
+					"Amount": 100
+				},
+				{
+					"Commodity": "Electronic Parts",
+					"Amount": 100
+				}
+			],
+			"Required": [
+				"Specialized Tools",
+				"Electricity",
+				"Electronic Tools"
+			],
+			"RequiredTechnology": [
+				"Moon Mining"
 			],
 			"SpeedBonus": []
 		}
